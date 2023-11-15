@@ -2,6 +2,12 @@
 
 This repository contains code to create an **image search app** that can be used to (1) store image embeddings in a vector database, and then (2) retrieve images using keyword search.
 
+The following tools are used to create this app: [CassIO](https://cassio.org/), [LangChain](https://www.langchain.com/), [OpenAI](www.openai.com), and [AstraDB](https://www.datastax.com/products/datastax-astra) as the vector database.
+
+<p align='center'>
+	<img src='./misc/tools.png', alt='Tools Used', width='650'>
+</p>
+
 <details><summary><b>Show more details</b></summary>
 
 Here is an example of a set of search results for the query "dog".
@@ -11,12 +17,6 @@ Here is an example of a set of search results for the query "dog".
 </p>
 
 The query returns three top results from all images available in the vector store.
-
-The following tools are used to create this app: [CassIO](https://cassio.org/), [LangChain](https://www.langchain.com/), [OpenAI](www.openai.com), and [AstraDB](https://www.datastax.com/products/datastax-astra) as the vector database.
-
-<p align='center'>
-	<img src='./misc/tools.png', alt='Tools Used', width='650'>
-</p>
 
 </details>
 
