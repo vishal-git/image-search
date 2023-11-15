@@ -2,8 +2,7 @@
 classes = ['pet', 'sports', 'car', 'bird', 'baby']
 max_images = 10
 
-llm_provider = 'OpenAI'
-table_name = 'test2_' + llm_provider
+table_name = 'img_caption_emb'
 
 # for gradio app
 num_results = 3
