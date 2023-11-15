@@ -14,6 +14,10 @@ The query returns three top results from all images available in the vector stor
 
 The following tools are used to create this app: [CassIO](https://cassio.org/), [LangChain](https://www.langchain.com/), [OpenAI](www.openai.com), and [AstraDB](https://www.datastax.com/products/datastax-astra) as the vector database.
 
+<p align='center'>
+	<img src='./misc/tools.png', alt='Tools Used', width='650'>
+</p>
+
 </details>
 
 ## Instructions to Launch the App 🚀
